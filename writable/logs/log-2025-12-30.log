@@ -1,0 +1,819 @@
+CRITICAL - 2025-12-30 04:05:32 --> ErrorException: Undefined variable $users
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 46.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 04:08:51 --> ErrorException: Undefined variable $users
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 46.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 46)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 04:16:53 --> ErrorException: Undefined variable $roles
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 129.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(129): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 129)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 04:18:35 --> ErrorException: Undefined variable $roles
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 106.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 04:18:37 --> ErrorException: Undefined variable $roles
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 106.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 04:18:38 --> ErrorException: Undefined variable $roles
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 106.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $roles', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(44): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 05:07:06 --> mysqli_sql_exception: Column 'total_amount' cannot be null in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#15 {main}
+CRITICAL - 2025-12-30 05:07:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'total_amount' cannot be null
+[Method: POST, Route: owner/pembelian/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:07:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'total_amount' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (\'1\', \'2025-12-30\', NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (\'1\', \'2025-12-30\', NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:07:06 --> [Caused by] mysqli_sql_exception: Column 'total_amount' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (\'1\', \'2025-12-30\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (\'1\', \'2025-12-30\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (\'1\', \'2025-12-30\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:17:15 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLSelectElement]"
+[Method: GET, Route: owner/users/get/%5Bobject%20HTMLSelectElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('owner/users/get/[object HTMLSelectElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('owner/users/get/[object HTMLSelectElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:17:20 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLSelectElement]"
+[Method: GET, Route: owner/users/get/%5Bobject%20HTMLSelectElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('owner/users/get/[object HTMLSelectElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('owner/users/get/[object HTMLSelectElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:20:52 --> ErrorException: Undefined array key "purchase_detail_id"
+[Method: GET, Route: owner/pembelian]
+in APPPATH\Views\owner\pages\v_pembelian.php on line 54.
+ 1 APPPATH\Views\owner\pages\v_pembelian.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "purchase_detail_id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php', 54)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_pembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_pembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(45): view('owner/pages/v_pembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 05:33:50 --> mysqli_sql_exception: Unknown column 'purchases.total_amount' in 'field list' in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchas...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchas...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchas...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchas...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#14 {main}
+CRITICAL - 2025-12-30 05:33:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.total_amount' in 'field list'
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:33:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.total_amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:33:50 --> [Caused by] mysqli_sql_exception: Unknown column 'purchases.total_amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 05:34:02 --> mysqli_sql_exception: Unknown column 'purchases.total_amount' in 'field list' in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchas...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchas...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchas...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchas...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#14 {main}
+CRITICAL - 2025-12-30 05:34:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.total_amount' in 'field list'
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:34:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.total_amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:34:02 --> [Caused by] mysqli_sql_exception: Unknown column 'purchases.total_amount' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchases`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 05:38:04 --> mysqli_sql_exception: Unknown column 'purchases.purchase_id' in 'on clause' in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchas...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchas...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchas...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchas...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#14 {main}
+CRITICAL - 2025-12-30 05:38:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.purchase_id' in 'on clause'
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:38:04 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'purchases.purchase_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:38:04 --> [Caused by] mysqli_sql_exception: Unknown column 'purchases.purchase_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = \'1\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `purchase_detail`.*, `products`.`product_name`, `purchase`.`purchase_date`, `purchase`.`total_amount`
+FROM `purchase_detail`
+JOIN `products` ON `products`.`product_id` = `purchase_detail`.`product_id`
+JOIN `purchase` ON `purchases`.`purchase_id` = `purchase_details`.`purchase_id`
+WHERE `purchase_detail`.`purchase_id` = :purchase_detail.purchase_id:', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(72): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 05:38:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "owner/pages/v_detail.php"
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('owner/pages/v_detail.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detail', [], true)
+ 3 APPPATH\Controllers\Owner\PembelianControl.php(74): view('owner/pages/v_detail', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:11:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "owner/pages/v_detailPembelian.php"
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('owner/pages/v_detailPembelian.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 3 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:11:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "owner/pages/v_detailPembelian.php"
+[Method: GET, Route: detail/1]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('owner/pages/v_detailPembelian.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 3 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:12:06 --> ErrorException: Undefined variable $kategori
+[Method: GET, Route: detail/1]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 41.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kategori', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 41)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:21:46 --> ErrorException: Undefined array key "category_id"
+[Method: GET, Route: detail/1]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 56.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:44:28 --> ErrorException: Undefined array key 0
+[Method: GET, Route: detail/3]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 16.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:44:52 --> ErrorException: Undefined array key "purchase_id"
+[Method: GET, Route: detail/3]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 16.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "purchase_id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 07:44:53 --> ErrorException: Undefined array key "purchase_id"
+[Method: GET, Route: detail/3]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 16.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "purchase_id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 16)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(81): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('3')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:09:35 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLInputElement]"
+[Method: GET, Route: detail/get/%5Bobject%20HTMLInputElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('detail/get/[object HTMLInputElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('detail/get/[object HTMLInputElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:11:08 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLInputElement]"
+[Method: GET, Route: detail/get/%5Bobject%20HTMLInputElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('detail/get/[object HTMLInputElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('detail/get/[object HTMLInputElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:11:13 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLInputElement]"
+[Method: GET, Route: detail/get/%5Bobject%20HTMLInputElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('detail/get/[object HTMLInputElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('detail/get/[object HTMLInputElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:12:25 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLInputElement]"
+[Method: GET, Route: detail/get/%5Bobject%20HTMLInputElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('detail/get/[object HTMLInputElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('detail/get/[object HTMLInputElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:12:37 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "[object HTMLInputElement]"
+[Method: GET, Route: detail/get/%5Bobject%20HTMLInputElement%5D]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('detail/get/[object HTMLInputElement]')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('detail/get/[object HTMLInputElement]')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 08:46:46 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#15 {main}
+CRITICAL - 2025-12-30 08:46:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: detail/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:46:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:46:46 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-30 08:47:05 --> mysqli_sql_exception: Column 'user_id' cannot be null in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pu...', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pu...')
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pu...')
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pu...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert(Array)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#15 {main}
+CRITICAL - 2025-12-30 08:47:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+[Method: POST, Route: detail/save]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:47:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 08:47:05 --> [Caused by] mysqli_sql_exception: Column 'user_id' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `purchase` (`user_id`, `purchase_date`, `total_amount`) VALUES (:user_id:, :purchase_date:, :total_amount:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Owner\PembelianControl.php(58): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->save()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 13:08:46 --> ErrorException: Undefined array key 0
+[Method: GET, Route: detail/1]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 22.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(80): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 13:09:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: detail/1]
+in APPPATH\Views\owner\pages\v_detailPembelian.php on line 22.
+ 1 APPPATH\Views\owner\pages\v_detailPembelian.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php', 22)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_detailPembelian.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_detailPembelian', [], true)
+ 5 APPPATH\Controllers\Owner\PembelianControl.php(80): view('owner/pages/v_detailPembelian', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\PembelianControl->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\PembelianControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-30 13:56:29 --> ParseError: Unclosed '{' on line 14
+[Method: GET, Route: detail/6]
+in APPPATH\Controllers\Owner\PembelianControl.php on line 164.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Controllers\\Owner\\PembelianControl.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Owner\\PembelianControl')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Owner\\PembelianControl')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Owner\\PembelianControl', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')

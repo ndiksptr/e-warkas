@@ -1,0 +1,30 @@
+CRITICAL - 2025-12-22 05:40:38 --> ErrorException: Undefined variable $title
+[Method: GET, Route: owner]
+in APPPATH\Views\owner\layout\v_home.php on line 13.
+ 1 APPPATH\Views\owner\layout\v_home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/layout/v_home', [], true)
+ 5 APPPATH\Controllers\Owner\OwnerControl.php(12): view('owner/layout/v_home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\OwnerControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\OwnerControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-22 08:54:42 --> ErrorException: Undefined variable $title
+[Method: GET, Route: owner]
+in APPPATH\Views\owner\layout\v_home.php on line 13.
+ 1 APPPATH\Views\owner\layout\v_home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/layout/v_home', [], true)
+ 5 APPPATH\Controllers\Owner\OwnerControl.php(12): view('owner/layout/v_home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\OwnerControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\OwnerControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')

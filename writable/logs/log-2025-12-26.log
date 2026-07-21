@@ -1,0 +1,58 @@
+CRITICAL - 2025-12-26 01:58:47 --> ErrorException: Undefined array key "user_id"
+[Method: GET, Route: owner/produk]
+in APPPATH\Views\owner\pages\v_produk.php on line 55.
+ 1 APPPATH\Views\owner\pages\v_produk.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_produk.php', 55)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_produk.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_produk', [], true)
+ 5 APPPATH\Controllers\Owner\ProdukControl.php(32): view('owner/pages/v_produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\ProdukControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\ProdukControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-26 16:11:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "kasir/v_kasir.php"
+[Method: GET, Route: kasir]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kasir/v_kasir.php')
+ 2 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/v_kasir', [], true)
+ 3 APPPATH\Controllers\Kasir\KasirControl.php(19): view('kasir/v_kasir')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-26 16:12:11 --> ErrorException: Undefined variable $title
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 13.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(19): view('kasir/layout/v_kasir')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-26 16:20:49 --> ErrorException: Undefined variable $title
+[Method: GET, Route: owner]
+in APPPATH\Views\owner\layout\v_home.php on line 13.
+ 1 APPPATH\Views\owner\layout\v_home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\layout\\v_home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/layout/v_home', [], true)
+ 5 APPPATH\Controllers\Owner\OwnerControl.php(12): view('owner/layout/v_home')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\OwnerControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\OwnerControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')

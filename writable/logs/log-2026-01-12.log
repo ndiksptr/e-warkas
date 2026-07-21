@@ -1,0 +1,448 @@
+DEBUG - 2026-01-12 05:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 05:07:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-warkas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-warkas\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\e-warkas\app\Controllers\Auth\Auth.php(17): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(933): App\Controllers\Auth\Auth->loginProcess()
+#8 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#9 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\e-warkas\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\e-warkas\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\e-warkas\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 C:\xampp\htdocs\e-warkas\app\Controllers\Auth\Auth.php(17): CodeIgniter\BaseModel->first()
+#6 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(933): App\Controllers\Auth\Auth->loginProcess()
+#7 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+#8 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\e-warkas\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-01-12 05:07:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: loginProcess]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `user_email` = :user_email:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth\Auth.php(17): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth\Auth->loginProcess()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+DEBUG - 2026-01-12 05:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:09:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-12 05:19:06 --> Error: Class "TCPDF" not found
+[Method: GET, Route: owner/print-Tahunan]
+in APPPATH\Controllers\Owner\LaporanControl.php on line 226.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->printLaporanTahunan()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+DEBUG - 2026-01-12 05:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:26:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:26:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 05:27:09 --> mysqli_sql_exception: Table 'db_warkas(2).sales' doesn't exist in C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\e-warkas\app\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-warkas\app\Controllers\Owner\LaporanControl.php(99): App\Models\LaporanModel->DataBulanan('2026', '01')
+#6 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->bulan()
+#7 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+#8 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\e-warkas\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-01-12 05:27:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas(2).sales' doesn't exist
+[Method: GET, Route: owner/laporan/laporanbulanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 2 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Owner\LaporanControl.php(99): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->bulan()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:27:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas(2).sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 4 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Owner\LaporanControl.php(99): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->bulan()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:27:09 --> [Caused by] mysqli_sql_exception: Table 'db_warkas(2).sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 5 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Owner\LaporanControl.php(99): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->bulan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+DEBUG - 2026-01-12 05:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 05:45:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 05:45:55 --> mysqli_sql_exception: Table 'db_warkas.sales' doesn't exist in C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\e-warkas\app\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-warkas\app\Controllers\Owner\LaporanControl.php(114): App\Models\LaporanModel->DataBulanan('2026', '01')
+#6 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->ViewLaporanBulanan()
+#7 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+#8 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\e-warkas\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-01-12 05:45:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas.sales' doesn't exist
+[Method: POST, Route: owner/laporan/viewlaporanbulanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 2 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Owner\LaporanControl.php(114): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->ViewLaporanBulanan()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:45:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas.sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 4 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Owner\LaporanControl.php(114): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->ViewLaporanBulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:45:55 --> [Caused by] mysqli_sql_exception: Table 'db_warkas.sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 5 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Owner\LaporanControl.php(114): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->ViewLaporanBulanan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+DEBUG - 2026-01-12 05:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-12 05:45:56 --> mysqli_sql_exception: Table 'db_warkas.sales' doesn't exist in C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\e-warkas\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\e-warkas\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\e-warkas\app\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-warkas\app\Controllers\Owner\LaporanControl.php(138): App\Models\LaporanModel->DataBulanan('2026', '01')
+#6 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->printLaporanBulanan()
+#7 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+#8 C:\xampp\htdocs\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\xampp\htdocs\e-warkas\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2026-01-12 05:45:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas.sales' doesn't exist
+[Method: GET, Route: owner/print-Bulanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 2 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Controllers\Owner\LaporanControl.php(138): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->printLaporanBulanan()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:45:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_warkas.sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 4 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Controllers\Owner\LaporanControl.php(138): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->printLaporanBulanan()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+CRITICAL - 2026-01-12 05:45:56 --> [Caused by] mysqli_sql_exception: Table 'db_warkas.sales' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = \'2026\'
+AND MONTH(sales.sales_date) = \'01\'
+GROUP BY `products`.`product_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `products`.`product_id`, `products`.`product_name`, SUM(sales_detail.quantity) as total_qty, SUM(sales_detail.subtotal) as total_omzet_produk, -- laba kotor per produk
+            SUM((sales_detail.price - sales_detail.current_capital) * sales_detail.quantity) as laba_produk
+FROM `sales`
+JOIN `sales_detail` ON `sales_detail`.`sales_id` = `sales`.`sales_id`
+JOIN `products` ON `products`.`product_id` = `sales_detail`.`product_id`
+WHERE YEAR(sales.sales_date) = :YEAR(sales.sales_date):
+AND MONTH(sales.sales_date) = :MONTH(sales.sales_date):
+GROUP BY `products`.`product_id`', [...], false)
+ 5 APPPATH\Models\LaporanModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Owner\LaporanControl.php(138): App\Models\LaporanModel->DataBulanan('2026', '01')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\LaporanControl->printLaporanBulanan()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\LaporanControl))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\e-warkas\\public\\index.php')
+DEBUG - 2026-01-12 05:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:08:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-01-12 06:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

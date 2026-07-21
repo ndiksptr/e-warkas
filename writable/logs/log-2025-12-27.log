@@ -1,0 +1,34 @@
+CRITICAL - 2025-12-27 02:47:31 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 187.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 187)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(19): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-27 02:47:32 --> ErrorException: Undefined variable $produk
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 187.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(187): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $produk', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 187)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(19): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+DEBUG - 2025-12-27 12:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-27 12:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-27 12:11:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-27 12:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

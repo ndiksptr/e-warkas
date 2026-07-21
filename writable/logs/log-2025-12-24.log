@@ -1,0 +1,367 @@
+ERROR - 2025-12-24 04:35:40 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:35:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-24 04:43:04 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:43:04 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-24 04:43:16 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:43:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-24 04:48:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:48:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-24 04:49:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:49:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+ERROR - 2025-12-24 04:49:07 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-24 04:49:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: owner/users]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+JOIN `roles` ON `roles`.`roles_id` = `users`.`roles_id`', [], false)
+ 3 APPPATH\Models\UsersModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Owner\UsersControl.php(28): App\Models\UsersModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-24 12:04:23 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: owner/users]
+in APPPATH\Views\owner\pages\v_users.php on line 49.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_users', [], true)
+ 4 APPPATH\Controllers\Owner\UsersControl.php(29): view('owner/pages/v_users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-24 12:05:20 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: owner/users]
+in APPPATH\Views\owner\pages\v_users.php on line 49.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_users', [], true)
+ 4 APPPATH\Controllers\Owner\UsersControl.php(29): view('owner/pages/v_users', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-24 12:43:09 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: owner/users]
+in APPPATH\Views\owner\pages\v_users.php on line 142.
+ 1 APPPATH\Views\owner\pages\v_users.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php', 142)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_users', [], true)
+ 5 APPPATH\Controllers\Owner\UsersControl.php(30): view('owner/pages/v_users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-24 12:44:41 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: owner/users]
+in APPPATH\Views\owner\pages\v_users.php on line 142.
+ 1 APPPATH\Views\owner\pages\v_users.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php', 142)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_users', [], true)
+ 5 APPPATH\Controllers\Owner\UsersControl.php(30): view('owner/pages/v_users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-24 16:42:19 --> ErrorException: Attempt to read property "user_name" on array
+[Method: GET, Route: owner/users]
+in APPPATH\Views\owner\pages\v_users.php on line 49.
+ 1 APPPATH\Views\owner\pages\v_users.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_name" on array', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\owner\\pages\\v_users.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('owner/pages/v_users', [], true)
+ 5 APPPATH\Controllers\Owner\UsersControl.php(30): view('owner/pages/v_users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Owner\UsersControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Owner\UsersControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')

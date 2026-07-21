@@ -1,0 +1,411 @@
+DEBUG - 2025-12-28 06:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:04:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 07:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 08:18:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 08:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 08:20:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 10:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:20:33 --> Cart Class Initialized
+CRITICAL - 2025-12-28 10:26:55 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 185.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:26:57 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 185.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:27:48 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 185.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:47:08 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:47:09 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:47:11 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:47:48 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+DEBUG - 2025-12-28 10:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:47:50 --> Cart Class Initialized
+CRITICAL - 2025-12-28 10:47:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 10:47:54 --> Error: Call to undefined function form_open()
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 186.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(43): view('kasir/layout/v_kasir', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+DEBUG - 2025-12-28 10:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:50:29 --> Cart Class Initialized
+DEBUG - 2025-12-28 10:50:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:50:34 --> Cart Class Initialized
+DEBUG - 2025-12-28 10:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:52:08 --> Cart Class Initialized
+DEBUG - 2025-12-28 10:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:52:24 --> Cart Class Initialized
+DEBUG - 2025-12-28 10:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 10:52:27 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:00:42 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:00:43 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:00:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:00:48 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:00:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:00:53 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:00:57 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:01:01 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:01:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:01:06 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:01:46 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:01:50 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:02:38 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:02:38 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:02:43 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:02:45 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:02:47 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:07 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:09 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:11 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:29 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:34 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:49 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:52 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:57 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:09:58 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:10:00 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:10:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:10:02 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:05 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:07 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:18 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:18 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:19 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:19 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:19 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:19 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:19 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:20 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:20 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:21 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:24 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:34 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:12:39 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:03 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:07 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:31 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:36 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:40 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:49 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:53 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:56 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:13:58 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:00 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:02 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:05 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:10 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:12 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:14:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:14:14 --> Cart Class Initialized
+DEBUG - 2025-12-28 11:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 11:16:21 --> Cart Class Initialized
+ERROR - 2025-12-28 23:04:33 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'db_warkas', 3306, '', 0)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\ProductModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Kasir\KasirControl.php(28): App\Models\ProductModel->getAll()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Models\ProductModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\app\Controllers\Kasir\KasirControl.php(28): App\Models\ProductModel->getAll()
+#5 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+#6 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+#7 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\aplikasi cihuy\xampp\htdocs\Pembelajaran CodeIgniter4\e-warkas\system\rewrite.php(44): require_once('C:\\aplikasi cih...')
+#12 {main}
+CRITICAL - 2025-12-28 23:04:33 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: kasir]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+JOIN `categories` ON `categories`.`category_id` = `products`.`category_id`
+JOIN `units` ON `units`.`unit_id` = `products`.`unit_id`', [], false)
+ 3 APPPATH\Models\ProductModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Kasir\KasirControl.php(28): App\Models\ProductModel->getAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+DEBUG - 2025-12-28 23:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:05:03 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:05:24 --> Cart Class Initialized
+CRITICAL - 2025-12-28 23:17:17 --> ErrorException: Undefined array key "Selling_price"
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 207.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Selling_price"', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 207)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(44): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+DEBUG - 2025-12-28 23:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:33:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-28 23:47:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:47:59 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:02 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:04 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:05 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:07 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:09 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:10 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:12 --> Cart Class Initialized
+DEBUG - 2025-12-28 23:48:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-28 23:48:15 --> Cart Class Initialized
+CRITICAL - 2025-12-28 23:56:47 --> ErrorException: Undefined variable $cart
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 228.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 228)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(44): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 23:59:05 --> ErrorException: Undefined variable $cart
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 228.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 228)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(44): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
+CRITICAL - 2025-12-28 23:59:09 --> ErrorException: Undefined variable $cart
+[Method: GET, Route: kasir]
+in APPPATH\Views\kasir\layout\v_kasir.php on line 228.
+ 1 APPPATH\Views\kasir\layout\v_kasir.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cart', 'C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php', 228)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\app\\Views\\kasir\\layout\\v_kasir.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('kasir/layout/v_kasir', [], true)
+ 5 APPPATH\Controllers\Kasir\KasirControl.php(44): view('kasir/layout/v_kasir', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Kasir\KasirControl->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kasir\KasirControl))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\aplikasi cihuy\\xampp\\htdocs\\Pembelajaran CodeIgniter4\\e-warkas\\public\\index.php')
